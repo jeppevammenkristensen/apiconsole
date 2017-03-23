@@ -1,0 +1,8 @@
+C:\Code\dotnetcore\apiconsole\src\ApiConsole\bin\Debug\net46\ApiConsole.dll
+C:\Code\dotnetcore\apiconsole\src\ApiConsole\bin\Debug\net46\ApiConsole.pdb
+C:\Code\dotnetcore\apiconsole\src\ApiConsole\bin\Debug\net46\Newtonsoft.Json.dll
+C:\Code\dotnetcore\apiconsole\src\ApiConsole\bin\Debug\net46\System.Diagnostics.Process.dll
+C:\Code\dotnetcore\apiconsole\src\ApiConsole\obj\Debug\net46\ApiConsole.AssemblyInfo.cs
+C:\Code\dotnetcore\apiconsole\src\ApiConsole\obj\Debug\net46\ApiConsole.dll
+C:\Code\dotnetcore\apiconsole\src\ApiConsole\obj\Debug\net46\ApiConsole.pdb
+C:\Code\dotnetcore\apiconsole\src\ApiConsole\obj\Debug\net46\ApiConsole.csprojResolveAssemblyReference.cache

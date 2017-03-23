@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ApiConsole</id>
+    <version>0.9.0</version>
+    <authors>ApiConsole</authors>
+    <owners>ApiConsole</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard1.4">
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="System.Diagnostics.Process" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="10.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.6">
+        <dependency id="System.Diagnostics.Process" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="10.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Code\dotnetcore\apiconsole\src\ApiConsole\bin\Debug\netstandard1.4\ApiConsole.dll" target="lib\netstandard1.4\ApiConsole.dll" />
+    <file src="C:\Code\dotnetcore\apiconsole\src\ApiConsole\bin\Debug\net46\ApiConsole.dll" target="lib\net46\ApiConsole.dll" />
+  </files>
+</package>

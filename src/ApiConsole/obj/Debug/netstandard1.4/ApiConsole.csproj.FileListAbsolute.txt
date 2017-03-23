@@ -1,0 +1,7 @@
+C:\Code\dotnetcore\apiconsole\src\ApiConsole\bin\Debug\netstandard1.4\ApiConsole.deps.json
+C:\Code\dotnetcore\apiconsole\src\ApiConsole\obj\Debug\netstandard1.4\ApiConsole.AssemblyInfo.cs
+C:\Code\dotnetcore\apiconsole\src\ApiConsole\bin\Debug\netstandard1.4\ApiConsole.dll
+C:\Code\dotnetcore\apiconsole\src\ApiConsole\bin\Debug\netstandard1.4\ApiConsole.pdb
+C:\Code\dotnetcore\apiconsole\src\ApiConsole\obj\Debug\netstandard1.4\ApiConsole.dll
+C:\Code\dotnetcore\apiconsole\src\ApiConsole\obj\Debug\netstandard1.4\ApiConsole.pdb
+C:\Code\dotnetcore\apiconsole\src\ApiConsole\obj\Debug\netstandard1.4\ApiConsole.csprojResolveAssemblyReference.cache

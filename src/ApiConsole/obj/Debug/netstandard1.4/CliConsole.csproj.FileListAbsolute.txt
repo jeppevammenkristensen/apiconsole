@@ -1,0 +1,4 @@
+C:\Code\dotnetcore\CliConsole\CliConsole\bin\Debug\netstandard1.4\CliConsole.deps.json
+C:\Code\dotnetcore\CliConsole\CliConsole\obj\Debug\netstandard1.4\CliConsole.csprojResolveAssemblyReference.cache
+C:\Code\dotnetcore\CliConsole\CliConsole\obj\Debug\netstandard1.4\CliConsole.AssemblyInfo.cs
+C:\Code\dotnetcore\CliConsole\CliConsole\bin\Debug\netstandard1.4\CliConsole.dll

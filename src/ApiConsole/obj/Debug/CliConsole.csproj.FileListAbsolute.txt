@@ -1,0 +1,2 @@
+C:\Code\dotnetcore\CliConsole\CliConsole\obj\Debug\CliConsole.csprojResolveAssemblyReference.cache
+C:\Code\dotnetcore\CliConsole\CliConsole\obj\Debug\CliConsole.AssemblyInfo.cs
