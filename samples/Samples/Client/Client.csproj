@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Server\Commands\IisSite.cs" Link="IisSite.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Server\bin\Debug\Server.exe" Link="Server.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\ApiConsole\ApiConsole.csproj" />
+  </ItemGroup>
+
+</Project>

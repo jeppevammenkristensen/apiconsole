@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -8,7 +9,7 @@ namespace ApiConsole
 {
     public class ApiConsoleClient
     {
-        public static IEnumerable<TResult> ExecuteMultiple<TResult>(string name, string path, bool debug, params string[] parameters)
+        public static IEnumerable<TResult> Execute<TResult>(string name, string path, params string[] parameters)
         {
             var processStartInfo = new ProcessStartInfo
             {
@@ -16,7 +17,8 @@ namespace ApiConsole
                     path,
                 Arguments = $"{name}{ (!parameters.Any() ? "" : " " + string.Join(" ", parameters))}",
                 UseShellExecute = false,
-                RedirectStandardOutput = !debug, //true,
+                RedirectStandardOutput = true, //true,
+                RedirectStandardError = true,
                 CreateNoWindow = true,
             };
             var proc = new Process()
@@ -26,9 +28,6 @@ namespace ApiConsole
 
             proc.Start();
 
-            if (debug)
-                yield break;
-
             while (!proc.StandardOutput.EndOfStream)
             {
                 var line = proc.StandardOutput.ReadLine();
@@ -36,6 +35,11 @@ namespace ApiConsole
                 {
                     ContractResolver = new CamelCasePropertyNamesContractResolver()
                 });
+            }
+
+            if (!proc.StandardError.EndOfStream)
+            {
+                throw new InvalidOperationException($"An exception occurred: {proc.StandardError.ReadToEnd()}");
             }
         }
 
